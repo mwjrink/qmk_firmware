@@ -13,6 +13,7 @@ DRIVER_DIR = drivers
 DRIVER_PATH = $(DRIVER_DIR)
 
 BUILD_DIR := .build
+OUTPUT_DIR := compilations
 
 COMMON_VPATH := $(TOP_DIR)
 COMMON_VPATH += $(TMK_PATH)
