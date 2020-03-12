@@ -23,7 +23,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x0001
 #define PRODUCT_ID      0x0001
-#define DEVICE_VER      0x0003
+#define DEVICE_VER      0x0004
 #define MANUFACTURER    Maximus
 #define PRODUCT         EndGame
 #define DESCRIPTION     My end game keyboard 
@@ -85,6 +85,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #undef NO_ACTION_FUNCTION
 #define NO_ACTION_FUNCTION
+
+#undef NO_ACTION_LAYER
 
 /* NKRO by default requires to be turned on, this forces it on during 
 keyboard startup regardless of EEPROM setting. NKRO can still be turned 
