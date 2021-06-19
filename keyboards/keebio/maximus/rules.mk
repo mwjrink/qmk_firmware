@@ -37,6 +37,6 @@ SPLIT_KEYBOARD = yes
 # added time is not noticeable). However, this will automatically disable the old Macros and 
 # Functions features automatically, as these break when LTO is enabled. It does this by 
 # automatically defining NO_ACTION_MACRO and NO_ACTION_FUNCTION
-LINK_TIME_OPTIMIZATION_ENABLE = yes
+LTO_ENABLE = yes
 
 

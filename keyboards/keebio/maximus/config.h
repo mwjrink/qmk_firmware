@@ -44,9 +44,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* https://medium.com/@keebio/the-case-of-the-wayward-elite-c-73f0fd691f88 */
 // bug in default for detecting slave half of keyboard
-#define SPLIT_USB_DETECT
-#define SPLIT_USB_TIMEOUT 2000
-#define SPLIT_USB_TIMEOUT_POLL 10
+// #define SPLIT_USB_DETECT
+// #define SPLIT_USB_TIMEOUT 2000
+// #define SPLIT_USB_TIMEOUT_POLL 10
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 // #define LOCKING_SUPPORT_ENABLE
@@ -54,8 +54,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define LOCKING_RESYNC_ENABLE
 
 /* serial.c configuration for split keyboard */
-// #define SOFT_SERIAL_PIN D0
-#define USE_I2C
+// i2c on left works great, on right it causes lots of missed keys
+#define SOFT_SERIAL_PIN D0
+// #define USE_I2C
+#define MASTER_RIGHT
 
 /* ws2812 RGB LED */
 // #define RGB_DI_PIN B4
