@@ -57,7 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // i2c on left works great, on right it causes lots of missed keys
 #define SOFT_SERIAL_PIN D0
 // #define USE_I2C
-#define MASTER_RIGHT
+#define MASTER_LEFT
 
 /* ws2812 RGB LED */
 // #define RGB_DI_PIN B4

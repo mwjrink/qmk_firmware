@@ -38,4 +38,5 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 
 ## Commands
 
-> bin/qmk compile -kb keebio/maximus -km mk_ii
+> QMK MSYS
+> qmk compile -kb keebio/maximus -km mk_iii
